@@ -4,15 +4,26 @@ html, body{
     overflow-x: hidden;
 }
 
+/*------------Global Class------------*/
 
+.sect-intro{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 32px;
+    color: var(--text-color);
+    
+
+}
 :root{
 /*------------Theme Colors------------*/
     --bluecolor: #0941AB;
     --text-color: #333232;
-    font-family: Poppins;
-
+    --sec-color: #E28F0A;
+    font-family: Karla;
+    font-weight: 400;
+    line-height: 32px;
 }
-
 
 
 img{
@@ -162,18 +173,18 @@ a{
 }
 
 .banner-left h2 span{
-    color: #E28F0A;
+    color: var(--sec-color);
 }
 
 .banner-left p{
     margin-bottom: 40px;
     width: 80%;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 32px;
-    color: var(--text-color);
 
 }
+
 .banner-left p span{
     color: #A5A6FF;
 }
@@ -217,17 +228,18 @@ a{
 }
 
 .contact-list{
-    border-left: 4px solid #E28F0A;
+    border-left: 4px solid var(--sec-color);
     color: var(--text-color);
 }
 
 .contact-list li{
     font-weight: 600;
+    font-size: 18px;
     line-height: 32px;
 }
 
 .contact-list li a:hover{
-    color: #E28F0A;
+    color: var(--sec-color);
 }
 
 
@@ -237,6 +249,67 @@ a{
 }
 
 /*-------xx-----Banner------xx------*/
+
+
+/*-------------About Page-------------*/
+
+.about{
+    max-width: 1200px;
+    padding-top: 130px;
+    padding-bottom: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.inner1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+.inner1 .inner1-left{
+    width: 35%;
+    padding: 0;
+}
+
+.inner1 .inner1-left h2{
+    color: var(--bluecolor);
+    font-family: Inter;
+}
+
+.inner1 .inner1-left .name{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+
+} 
+
+.inner1 .inner1-left .skill{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.inner1-right{
+    width: 65%;
+    padding: 0;
+}
+
+
+.inner1-right .abt-author{
+    font-size: 18px;
+}
+
+.inner1-right .abt-author span{
+    color: var(--sec-color)
+
+}
+
+
+/*-------------About Page-------------*/
 
 
 /*------xx------Right Container-------xx-----*/
