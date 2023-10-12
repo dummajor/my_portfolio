@@ -46,6 +46,7 @@ ul{
 a{
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 .parent-container{
@@ -203,6 +204,7 @@ a{
     flex-direction: row;
     margin-bottom: 70px;
     padding: 0;
+    
 }
 
 .btn .btn-main{
@@ -236,7 +238,7 @@ a{
     
 }
 
-.contact-list{
+.contact-border{
     border-left: 4px solid var(--sec-color);
     color: var(--text-color);
 }
@@ -520,6 +522,7 @@ a{
     color: var(--bluecolor);
     border: none;
     background: transparent;
+    cursor: pointer;
 }
 /*---xx---------Service Page-----xx------*/
 
@@ -655,10 +658,74 @@ a{
 /*------xx----Testimonial Page------xx----*/
 
 
+.contact-us {
+    max-width: 1200px;
+    padding: 85px 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #A9F9FF;
+}
 
+.contact-details {
+    width: 50%;
+    padding-right: 50px;
+}
 
+.contact-details p{
+    font-family: Karla;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
 
+.two li a:hover{
+    color: initial;
+}
+ 
+.contact-form {
+    padding-left: 50px;
+}
 
+input[type=text],[type=email], textarea {
+    width: 100%;
+    background: #ffffff;
+    padding: 18px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    margin-bottom: 6px;
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 18px;
+    font-family: Karla;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+::placeholder{
+    color: #C9C1C1;
+ }
+
+  /* Style the submit button */
+input[type=submit] {
+    background: var(--bluecolor);
+    color: white;
+    cursor: pointer;
+    font-family: Karla;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 40px;
+    border: 1px solid var(--bluecolor);
+    border-radius: 4px;
+    margin-right: 15px;
+  }
+  
+
+  input[type=submit]:hover {
+    background: #ffffff;
+    color: var(--bluecolor);
+  }
 
 
 

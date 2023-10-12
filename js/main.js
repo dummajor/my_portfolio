@@ -16,10 +16,12 @@ var isPaused = false; // Flag to track whether the slideshow is paused
 
 showSlides(slideIndex);
 
+// function to display a specific slide when a dot is clicked (Manual Navigation)
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
+// function to display slides
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -59,7 +61,7 @@ function startAutoSlide() {
         slideInterval = setInterval(function () {
             slideIndex++;
             showSlides(slideIndex);
-        }, 3000); // Change slide every 3 seconds (adjust the time interval as needed)
+        }, 3000); // Change slide every 3 seconds
     }
 }
 
@@ -69,7 +71,7 @@ function stopAutoSlide() {
 }
 
 // Add event listeners for mouse enter and mouse leave
-var slideContainer = document.getElementById("slide-container"); //  ID of  slide container
+var slideContainer = document.getElementById("slide-container"); //  ID of slide container
 slideContainer.addEventListener("mouseenter", function () {
     isPaused = true; // Pause the slideshow on mouse enter
     stopAutoSlide();
