@@ -124,10 +124,7 @@ a{
 }
 
 .social .fa-brands{
-    background: #F3F3F6;
-    border: 1px solid  #F3F3F6;
-    border-radius: 100%;
-    padding: 15px;
+    padding: 10px;
     font-size: 16px;
 }
 
@@ -201,8 +198,11 @@ a{
 
 .btn{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin-bottom: 70px;
+    column-gap: 15px;
+    row-gap: 15px;
     padding: 0;
     
 }
@@ -213,7 +213,7 @@ a{
     padding: 16px 40px;
     border: 1px solid var(--bluecolor);
     border-radius: 4px;
-    margin-right: 15px;
+    
 }
 
 .btn .btn-got{
@@ -259,6 +259,24 @@ a{
     padding: 0;
 }
 
+
+  /* Mobile phone styles (up to 767px) */
+  @media (max-width: 767px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+    
+    .banner-left{
+        width: 100%;
+        padding: 0;
+    }
+
+    .banner-right{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px; 
+    } 
+  }
 /*-------xx-----Banner------xx------*/
 
 
@@ -274,7 +292,6 @@ a{
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding-bottom: 40px;
 }
 
 .inner1 .inner1-left{
@@ -382,6 +399,35 @@ a{
 }
 
 
+  /* Mobile phone styles (up to 767px) */
+  @media (max-width: 767px) {
+    .about{
+        padding: 60px 20px;
+        margin: 0;
+    }
+
+    .inner1{
+        flex-direction: column;
+    }
+
+    .inner1-left{
+        width: 100%;
+    }
+
+    .inner1-right{
+        width: 100%; 
+    }
+
+    .inner2{
+        flex-direction: column;
+    }
+    
+    .inner2 .column{
+        width: 100%;
+    }
+  }
+
+
 /*------xx-------About Page------xx-------*/
 
 
@@ -391,7 +437,7 @@ a{
 .experience{
     max-width: 1200px;
     padding: 100px 20px 70px;
-    background: #F3F9FF;
+    background: #E8F1F8;
 
 }
 
@@ -446,6 +492,18 @@ a{
     font-weight: 500;
 }
 
+
+  /* Mobile phone styles (up to 767px) */
+  @media (max-width: 767px) {
+    .exp-container{
+        flex-direction: column;
+    }
+    
+    .exp-container .exp-card{
+        width: 100%;
+    }
+}
+
 /*-----xx--------Experience Page----xx---------*/
 
 
@@ -456,7 +514,7 @@ a{
     padding: 110px 20px 50px;
 }
 
-.services .service-head{
+.service-head{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -482,27 +540,30 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0;
-    padding-top: 40px;
+    /* margin: 0;
+    padding-top: 40px; */
+    margin-top: 40px;
+    padding: 0;
 }
 
 
-.service-card{
-    width: 22.5%;
+.service-details .service-card{
+    width: 48%;
     margin-bottom: 30px;
-    padding: 30px 40px;
+    /* padding: 30px 40px; */
     border: 1px solid #1E1E1E2B;
     border-radius: 4px;
     
 }
 
-.service-card h2{
+.service-details .service-card h2{
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     line-height: 32px;
     color: var(--bluecolor);
     margin-bottom: 30px;
+    padding: 0 40px;
 }
 
 .service-card p{
@@ -511,6 +572,7 @@ a{
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 32px;
+    padding: 0 40px;
 
 }
 
@@ -524,6 +586,28 @@ a{
     background: transparent;
     cursor: pointer;
 }
+
+
+
+  /* Mobile phone styles (up to 767px) */
+  @media (max-width: 767px) {
+    .services .service-head{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    
+    .service-right{
+        justify-content: start;
+        align-items: end;
+        padding: 0;
+    }
+    
+    .service-details .service-card{
+        width: 100%;
+    }
+
+  }
+
 /*---xx---------Service Page-----xx------*/
 
 
@@ -567,6 +651,19 @@ a{
     margin-bottom: 50px;
     padding: 0;
     justify-content: center;
+}
+
+
+  /* Mobile phone styles (up to 767px) */
+  @media (max-width: 767px) {
+    .image-box{
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+
 }
 
 /*---xx---------Project Page-----xx------*/
@@ -658,13 +755,14 @@ a{
 /*------xx----Testimonial Page------xx----*/
 
 
+/*----------Contact Page---------*/
 .contact-us {
     max-width: 1200px;
-    padding: 85px 20px 0 20px;
+    padding: 20px 20px 60px 20px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
-    background: #A9F9FF;
 }
 
 .contact-details {
@@ -684,49 +782,93 @@ a{
 }
  
 .contact-form {
-    padding-left: 50px;
+    color: var(--text-color);
 }
 
-input[type=text],[type=email], textarea {
-    width: 100%;
-    background: #ffffff;
-    padding: 18px 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px; 
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; 
-    margin-bottom: 6px;
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    font-size: 18px;
-    font-family: Karla;
-    font-weight: 400;
-    line-height: 32px;
-  }
+.contact-icons .fa-brands{
+    border: 1px solid  #F3F3F6;
+    border-radius: 100%;
+    padding: 0 15px;
+    font-size: 20px;
+}
 
-::placeholder{
-    color: #C9C1C1;
- }
-
-  /* Style the submit button */
-input[type=submit] {
-    background: var(--bluecolor);
-    color: white;
-    cursor: pointer;
-    font-family: Karla;
-    font-size: 18px;
-    font-weight: 400;
-    padding: 10px 40px;
-    border: 1px solid var(--bluecolor);
-    border-radius: 4px;
-    margin-right: 15px;
-  }
-  
-
-  input[type=submit]:hover {
-    background: #ffffff;
+.contact-icons a{
     color: var(--bluecolor);
+
+}
+  
+  /* Mobile phone styles (up to 767px) */
+  @media (max-width: 767px) {
+    .contact-us {
+        flex-direction: column;
+    }
+    
+    .contact-details {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .two {
+        padding-left: 0;
+    }
+        
+
+    
+
   }
 
-
+/*------xx----Contact Page------xx----*/
 
 /*------xx------Right Container-------xx-----*/
+
+
+
+
+/*----------Media Queries----------*/
+
+/* -----Hide the left navigation on small screens and tablet devices */
+@media (max-width: 1024px)  {
+    .left-container{ 
+        display: none;
+    }
+
+    .right-container {
+        width: 100%;
+        margin: 0;
+    }
+  }
+
+
+  /* tablet devices */
+@media (min-width: 769px) and (max-width: 1024px){
+    .service-card{
+        width: 21.5%;
+        
+    }
+
+    /* .contact-us {
+        width: 100%;
+    } */
+
+    .contact-details {
+        width: 45%;
+        padding-right: 30px;
+    }
+
+    .contact-form {
+        padding-left: 30px; 
+    }
+
+    .two {
+        padding-left: 0;
+    }
+      
+  }
+
+
+
+  
