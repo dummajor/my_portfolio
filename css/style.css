@@ -785,6 +785,10 @@ a {
 
 /* Mobile phone styles (up to 767px) */
 @media (max-width: 767px) {
+    .review {
+        padding: 40px;
+    
+    }
     .mySlides p {
         font-size: 18px;
         line-height: 30px;
