@@ -24,6 +24,14 @@ body {
     margin: 0;
 }
 
+/* Mobile phone styles (up to 767px) */
+@media (max-width: 767px) {
+    .name {
+        font-size: 30px;
+    }
+   
+}
+
 :root {
     /*------------Theme Colors------------*/
     --bluecolor: #0941AB;
@@ -314,9 +322,24 @@ a {
     margin-bottom: 35px;
 }
 
+/* Mobile phone styles (up to 767px) */
+@media (max-width: 767px) {
+    .inner1 .inner1-left {
+        width: 100%;  
+    }
+}
+
 .inner1-right {
     width: 65%;
     padding: 0;
+}
+
+/* Mobile phone styles (up to 767px) */
+@media (max-width: 767px) {
+    .inner1-right{
+        width: 100%;
+        
+    }
 }
 
 
@@ -353,6 +376,8 @@ a {
     font-size: 16px;
     font-weight: 400;
 }
+
+
 
 .inner2 {
     width: 100%;
@@ -665,9 +690,6 @@ a {
         text-align: center;
     }
 
-
-
-
 }
 
 /*---xx---------Project Page-----xx------*/
@@ -731,9 +753,28 @@ a {
 
 }
 
+/* Mobile phone styles (up to 767px) */
+@media (max-width: 767px) {
+    .mySlides p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .mySlides p:last-child {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .mySlides p span {
+        font-size: 14px;
+    }
+    
+         
+}
+
 .img-responsive {
     border-radius: 50%;
-    width: 15%;
+    width: 20%;
 }
 
 /* .dot-container */
@@ -822,7 +863,13 @@ a {
 
     .two {
         padding-left: 0;
+        
     }
+
+    .fa-solid {
+        font-size: 15px;
+    }
+
 
 
 
