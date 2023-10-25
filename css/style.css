@@ -753,25 +753,6 @@ a {
 
 }
 
-/* Mobile phone styles (up to 767px) */
-@media (max-width: 767px) {
-    .mySlides p {
-        font-size: 18px;
-        line-height: 30px;
-    }
-
-    .mySlides p:last-child {
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    .mySlides p span {
-        font-size: 14px;
-    }
-    
-         
-}
-
 .img-responsive {
     border-radius: 50%;
     width: 20%;
@@ -800,6 +781,26 @@ a {
 .dot:hover {
     background-color: var(--bluecolor);
 }
+
+
+/* Mobile phone styles (up to 767px) */
+@media (max-width: 767px) {
+    .mySlides p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .mySlides p:last-child {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .mySlides p span {
+        font-size: 14px;
+    }
+          
+}
+
 
 /*------xx----Testimonial Page------xx----*/
 
@@ -920,6 +921,11 @@ a {
 
     .two {
         padding-left: 0;
+        
+    }
+
+    .fa-solid {
+        font-size: 15px;
     }
 
 }
