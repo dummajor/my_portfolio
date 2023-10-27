@@ -156,6 +156,38 @@ a {
     flex-direction: column;
 }
 
+/* -------------Mobile Navigation Menu------------ */
+
+.navigation {
+    max-width: 1200px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    
+}
+.logo {
+    display: block;
+    width: 30%;
+}
+
+.logo img {
+    width: 100px;
+}
+
+
+/* Mobile phone styles (up to 767px) */
+@media (max-width: 767px) {
+    .navigation {
+        display: flex;
+}
+}
+/* .main-menu {
+    
+    
+
+} */
 
 /*------------Banner------------*/
 .banner {
@@ -905,6 +937,11 @@ a {
 
 /* tablet devices */
 @media (min-width: 769px) and (max-width: 1024px) {
+
+    .navigation {
+        display: flex;
+}
+
     .service-card {
         width: 21.5%;
 
