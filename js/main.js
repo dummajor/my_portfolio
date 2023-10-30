@@ -9,7 +9,7 @@
 
 
 
-// ----------- For Side Navigation -------------------
+// ----------- For Mobile Side Navigation -------------------
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 
@@ -18,6 +18,9 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+// -----xxxx------ For Mobile Side Navigation -------xxxx------------
+
 
 
 
@@ -104,6 +107,7 @@ startAutoSlide();
 
 
 // ---------- Scroll to Top Button  -------
+
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 
@@ -125,3 +129,5 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+// ----xxx------ Scroll to Top Button  --xxx---------------
