@@ -649,7 +649,7 @@ a {
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    padding: 0 20px;
+    padding: 0 40px;
 
 }
 
@@ -668,6 +668,22 @@ a {
 
     .exp-container .exp-card {
         width: 100%;
+    }
+
+    .exp-box p {
+        font-size: 15px;
+    }
+
+    .exp-box p span {
+        font-size: 18px;
+    }
+
+    .exp-card p:last-child {
+        font-size: 15px;
+    }
+
+    .exp-container .exp-card .exp-head h2 {
+        font-size: 15px;
     }
 }
 
