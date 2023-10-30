@@ -6,6 +6,10 @@
 // })
 
 
+
+
+
+// ----------- For Side Navigation -------------------
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 
@@ -59,7 +63,7 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     setTimeout(function () {
         slides[slideIndex - 1].style.opacity = 1; // Set opacity to 1 for a fade-in effect
-    }, 10); // A small delay to allow display changes before opacity change
+    }, 15); // A small delay to allow display changes before opacity change
 
     // Set "active" class to corresponding dot
     dots[slideIndex - 1].className += " active";
@@ -96,3 +100,28 @@ startAutoSlide();
 
 
 // -----xxx--------- Testimonial Slideshow ---------xxx---------------------
+
+
+
+// ---------- Scroll to Top Button  -------
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 50px from the top of the document, show the button
+window.onscroll = function() {
+    scrollFunction()
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}

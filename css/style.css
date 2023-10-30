@@ -166,11 +166,18 @@ a {
     border-bottom:2px solid #55527C1C;
 }
 
-/* .stick {
-    background: #fff;
+#sticky {
+    box-sizing:border-box;
+    overflow: hidden;
+    background:#ffffff;
     position: fixed;
-    max-width:100vw;
-} */
+    top: 0;
+    width: 100%;
+    margin: 0;
+
+}
+
+
 .logo {
     display: block;
     width: 40%;
@@ -225,8 +232,8 @@ a {
 }
 
 .mobile-contents .copyright {
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 
@@ -261,9 +268,6 @@ a {
     transition: 0.5s;
 }
 
-/* .sidenav a:hover {
-    color: #f1f1f1;
-} */
 
 .sidenav .closebtn {
     position: absolute;
@@ -284,6 +288,26 @@ a {
     }
 } */
 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: var(--bluecolor); 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 10px; 
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
 
 /*------------Banner------------*/
 .banner {
@@ -293,7 +317,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 40px 20px;
+    padding: 120px 20px;
 }
 
 .banner-left {
