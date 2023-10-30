@@ -239,7 +239,7 @@ a {
 
 .sidenav {
     height:100vh;
-    width: 200px;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -273,10 +273,7 @@ a {
     margin-left: 50px;
 }
 
-/* .open-nav {
-    float: right;
-    padding: 20px;
-} */
+/* 
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
@@ -285,7 +282,7 @@ a {
     .sidenav a {
         font-size: 15px;
     }
-}
+} */
 
 
 /*------------Banner------------*/
@@ -646,6 +643,15 @@ a {
     font-weight: 700;
 }
 
+.exp-card p:last-child {
+    font-family: Karla;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 20px;
+
+}
+
 .exp-container .exp-card .exp-head h2 {
     font-family: Inter;
     font-size: 18px;
@@ -736,7 +742,7 @@ a {
 
 }
 
-.cont-btn {
+/* .cont-btn {
     font-family: Karla;
     font-size: 18px;
     font-weight: 500;
@@ -745,7 +751,7 @@ a {
     border: none;
     background: transparent;
     cursor: pointer;
-}
+} */
 
 
 
