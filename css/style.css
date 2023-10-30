@@ -598,9 +598,6 @@ a {
 
 }
 
-/* .experience h3{
-    margin-bottom: 12px;
-} */
 
 
 .exp-container {
@@ -618,15 +615,17 @@ a {
     border: 1px solid #F9FAFC;
     border-radius: 4px;
     margin-bottom: 30px;
-    padding: 40px 0px;
     box-shadow: 30px 40px 80px 0px #E4EDF5 outline;
+}
+
+.exp-card-detail {
+    padding: 40px;
 }
 
 .exp-container .exp-card .exp-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 20px;
     margin-bottom: 15px;
 }
 
@@ -649,7 +648,6 @@ a {
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    padding: 0 40px;
 
 }
 
@@ -670,7 +668,7 @@ a {
         width: 100%;
     }
 
-    .exp-box p {
+    /* .exp-box p {
         font-size: 12px;
     }
 
@@ -680,7 +678,7 @@ a {
 
     .exp-container .exp-card .exp-head h2 {
         font-size: 15px;
-    }
+    } */
 }
 
 /*-----xx--------Experience Page----xx---------*/
