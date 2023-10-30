@@ -669,6 +669,18 @@ a {
     .exp-container .exp-card {
         width: 100%;
     }
+
+    .exp-box p {
+        font-size: 12px;
+    }
+
+    .exp-box p span {
+        font-size: 15px;
+    }
+
+    .exp-container .exp-card .exp-head h2 {
+        font-size: 15px;
+    }
 }
 
 /*-----xx--------Experience Page----xx---------*/
