@@ -317,7 +317,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 120px 20px;
+    padding: 40px 20px;
 }
 
 .banner-left {
@@ -426,6 +426,7 @@ a {
 @media (max-width: 767px) {
     .banner {
         flex-direction: column-reverse;
+        padding: 120px 20px;
     }
 
     .banner-left {
@@ -832,6 +833,11 @@ a {
     width: 30%;
 }
 
+.image-box a:hover {
+    opacity: 1;
+    background-color: var(--bluecolor);
+}
+
 .image-box h3 {
     color: var(--text-color);
     font-family: Karla;
@@ -871,7 +877,7 @@ a {
 
 .testimonial {
     max-width: 1200px;
-    padding: 20px 20px 85px;
+    padding: 20px 0 85px;
 
 }
 
