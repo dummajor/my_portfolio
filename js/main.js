@@ -104,11 +104,12 @@ startAutoSlide();
 
 // -----xxx--------- Testimonial Slideshow ---------xxx---------------------
 
-function on() {
-    var overlays = document.getElementById("overlay").style.display = "block";
+// function on() {
+//     var overlays = document.getElementById("overlay").style.display = "block";
 
 
-}
+// }
+
 
 // ---------- Scroll to Top Button  -------
 
