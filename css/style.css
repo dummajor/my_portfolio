@@ -614,6 +614,57 @@ a {
 
 
 
+/*-------------Skills Page-------------*/
+.skill-page {
+    max-width: 1200px;
+    padding: 100px 20px 70px;
+    background: #ffffff;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.skill-head {
+    color: var(--bluecolor);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.languages {
+    padding: 30px;
+    width: 45%;
+    margin-bottom: 30px;
+    border: 1px solid #1E1E1E2B;
+    border-radius: 4px;
+}
+
+.tools {
+    padding: 30px;
+    width: 45%;
+    margin-bottom: 30px;
+    border: 1px solid #1E1E1E2B;
+    border-radius: 4px;
+}
+
+
+/* Mobile phone styles (up to 767px) */
+@media (max-width: 767px) {
+    .skills {
+        flex-direction: column;
+    }
+
+    .languages, .tools {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+
+/*------xxx-------Skills Page-------xxx------*/
+
 /*-------------Experience Page-------------*/
 
 .experience {
