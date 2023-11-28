@@ -37,7 +37,7 @@ body {
     --bluecolor: #0941AB;
     --text-color: #333232;
     --sec-color: #E28F0A;
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
     font-weight: 400;
     line-height: 32px;
 }
@@ -465,7 +465,7 @@ a {
 
 .inner1 .inner1-left h2 {
     color: var(--bluecolor);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -518,14 +518,14 @@ a {
 
 .abt-box p span {
     color: var(--bluecolor);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
 }
 
 .abt-box p u {
     text-transform: uppercase;
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -563,7 +563,7 @@ a {
 }
 
 .inner2 .column .card span {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 1.4em;
@@ -572,7 +572,7 @@ a {
 }
 
 .inner2 .column .card p {
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -706,7 +706,7 @@ a {
 }
 
 .exp-box p {
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: var(--sec-color);
@@ -714,13 +714,13 @@ a {
 
 .exp-box p span {
     color: var(--bluecolor);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
 }
 
 .exp-card p:last-child {
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -728,7 +728,7 @@ a {
 }
 
 .exp-container .exp-card .exp-head h2 {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 500;
 }
@@ -785,7 +785,7 @@ a {
     color: var(--bluecolor);
     font-size: 18px;
     font-weight: 600;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -810,7 +810,7 @@ a {
 }
 
 .service-details .service-card h2 {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 32px;
@@ -820,7 +820,7 @@ a {
 }
 
 .service-card p {
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 20px;
@@ -830,7 +830,7 @@ a {
 }
 
 /* .cont-btn {
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 32px;
@@ -891,14 +891,14 @@ a {
 
 .image-box h3 {
     color: var(--text-color);
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
     font-weight: 500;
     font-size: 18px;
 }
 
 .image-box .client {
     color: var(--bluecolor);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 24px;
 }
@@ -957,7 +957,7 @@ a {
 }
 
 .mySlides p {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 40px;
@@ -966,7 +966,7 @@ a {
 }
 
 .mySlides p:last-child {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 30px;
     font-weight: 500;
     line-height: 40px;
@@ -975,7 +975,7 @@ a {
 }
 
 .mySlides p span {
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: var(--text-color);
@@ -1055,7 +1055,7 @@ a {
 }
 
 .contact-details p {
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
