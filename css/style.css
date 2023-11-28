@@ -18,6 +18,7 @@ body {
 
 .name {
     color: var(--bluecolor);
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 800;
     padding: 0;
@@ -92,6 +93,7 @@ a {
 }
 
 .name-head {
+    font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--bluecolor);
@@ -326,6 +328,7 @@ a {
 }
 
 .banner-left .head1 {
+    font-family: 'Inter', sans-serif;
     font-size: 55px;
     font-weight: 800;
     line-height: 60px;
@@ -334,6 +337,7 @@ a {
 }
 
 .banner-left .head2 {
+    font-family: 'Inter', sans-serif;
     font-size: 55px;
     font-weight: 800;
     line-height: 60px;
@@ -370,6 +374,7 @@ a {
 }
 
 .btn .btn-main {
+    font-family: 'Karla', sans-serif;
     font-size: 18px;
     font-weight: 400;
     padding: 16px 40px;
