@@ -346,8 +346,6 @@ a {
 }
 
 .banner-left h2 span {
-    font-family: 'Sacramento', cursive;
-    font-size: 100px;
     color: var(--sec-color);
 }
 
