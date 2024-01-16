@@ -136,3 +136,11 @@ function topFunction() {
 }
 
 // ----xxx------ Scroll to Top Button  --xxx---------------
+
+
+
+// -------------Copyright Year ----------------------
+
+document.getElementById("copyrightYear").innerHTML = new Date().getFullYear();
+
+document.getElementById("copyrightYear2").innerHTML = new Date().getFullYear();
