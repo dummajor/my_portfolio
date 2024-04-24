@@ -9,18 +9,18 @@
 /*------------Global Class------------*/
 
 .sect-intro {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 500;
   text-transform: uppercase;
-  line-height: 32px;
+  line-height: 2;
   color: var(--text-color);
-  margin-bottom: 12px;
+  margin-bottom: 0.75em;
 }
 
 .name {
   color: var(--bluecolor);
   font-family: "Inter", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   padding: 0;
   margin: 0;
@@ -29,7 +29,7 @@
 /* Mobile phone styles (up to 767px) */
 @media (max-width: 767px) {
   .name {
-    font-size: 30px;
+    font-size: 2rem;
   }
 }
 
@@ -40,7 +40,7 @@
   --sec-color: #e28f0a;
   font-family: "Karla", sans-serif;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 1.5;
 }
 
 img {
@@ -79,12 +79,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 50px 0;
+  /* justify-content: center; */
+  padding: 6rem 0;
 }
 
 .avatar1 {
-  width: 118px;
+  width: 40%;
   border: 3px solid #a5a6ff;
   border-radius: 100px;
 }
@@ -98,9 +98,8 @@ a {
 
 .nav-menu {
   font-weight: 400;
-  line-height: 30px;
   color: var(--text-color);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -109,7 +108,7 @@ a {
 }
 
 .nav-menu .nav-list .nav-link {
-  padding: 5px 0;
+  padding: 0.5em 0;
 }
 
 .nav-menu .nav-list .nav-link a {
@@ -121,8 +120,8 @@ a {
 }
 
 .social .fa-brands {
-  padding: 10px;
-  font-size: 16px;
+  padding: 1em;
+  font-size: 1rem;
 }
 
 .social a {
@@ -132,7 +131,6 @@ a {
 .copyright {
   font-size: 1.1rem;
   font-weight: 600;
-  line-height: 32px;
   text-align: center;
   color: var(--bluecolor);
 }
@@ -156,7 +154,7 @@ a {
   display: none;
   justify-content: space-between;
   align-content: center;
-  padding: 20px;
+  padding: 1.25em;
   border-bottom: 2px solid #55527c1c;
 }
 
@@ -176,11 +174,11 @@ a {
 }
 
 .logo img {
-  width: 150px;
+  width: 100%;
 }
 
 .open-nav {
-  font-size: 30px;
+  font-size: 2rem;
   color: var(--text-color);
   font-weight: 600;
 }
@@ -189,25 +187,25 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 30px 0;
+  padding: 2em 0;
 }
 
 .mobile-contents .name-head {
-  font-size: 15px;
+  font-size: 1rem;
   /* line-height: 0; */
 }
 
-.mobile-contents .avatar1 {
-  width: 80px;
+/* .mobile-contents .avatar1 {
+  width: 40%;
   border: 3px solid #a5a6ff;
   border-radius: 100px;
-}
+} */
 
-.mobile-contents .nav-menu {
+/* .mobile-contents .nav-menu {
   font-weight: 400;
   line-height: 0;
   font-size: 15px;
-}
+} */
 
 .mobile-contents .nav-menu .nav-list .nav-link {
   padding: 0;
@@ -218,13 +216,13 @@ a {
   display: flex;
 }
 .mobile-contents .social .fa-brands {
-  padding: 2px;
-  font-size: 12px;
+  padding: 0.2rem;
+  font-size: 1rem;
 }
 
 .mobile-contents .copyright {
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 /* Mobile phone styles (up to 767px) */
@@ -244,14 +242,13 @@ a {
   background: #ffffff;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 3.75em;
   border-left: 1px solid #55527c1c;
 }
 
 .sidenav a {
-  padding: 8px 8px 32px;
+  padding: 0.5em 0.5em 2em;
   text-decoration: none;
-  /* font-size: 25px; */
   color: var(--bluecolor);
   display: block;
   transition: 0.5s;
@@ -260,9 +257,9 @@ a {
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  right: 2rem;
+  font-size: 2.5rem;
+  /* margin-left: 4em; */
 }
 
 /* 
@@ -279,17 +276,17 @@ a {
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 1.5em;
+  right: 2em;
   z-index: 99;
   border: none;
   outline: none;
   background-color: var(--bluecolor);
   color: white;
   cursor: pointer;
-  padding: 15px;
+  padding: 0.8em;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 #myBtn:hover {
@@ -304,7 +301,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 40px 20px;
+  padding: 2.5em 1.25em;
 }
 
 .banner-left {
