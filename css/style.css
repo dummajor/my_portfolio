@@ -222,7 +222,6 @@ a {
 
 .mobile-contents .copyright {
   font-size: 1rem;
-  line-height: 1.5;
 }
 
 /* Mobile phone styles (up to 767px) */
@@ -309,21 +308,12 @@ a {
   padding: 0;
 }
 
-.banner-left .head1 {
+.banner-left .head1,
+.head2 {
   font-family: "Inter", sans-serif;
-  font-size: 55px;
+  font-size: 3.5rem;
   font-weight: 800;
-  line-height: 60px;
   color: var(--bluecolor);
-}
-
-.banner-left .head2 {
-  font-family: "Inter", sans-serif;
-  font-size: 55px;
-  font-weight: 800;
-  line-height: 60px;
-  color: var(--bluecolor);
-  margin-bottom: 0;
 }
 
 .banner-left h2 span {
@@ -331,11 +321,10 @@ a {
 }
 
 .banner-left p {
-  margin-bottom: 40px;
+  margin-bottom: 2.5em;
   width: 80%;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 32px;
 }
 
 .banner-left p span {
@@ -346,17 +335,16 @@ a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-bottom: 70px;
-  column-gap: 15px;
-  row-gap: 15px;
+  margin-bottom: 4.5em;
+  column-gap: 1em;
+  row-gap: 1em;
   padding: 0;
 }
 
 .btn .btn-main {
   font-family: "Karla", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  padding: 16px 40px;
+  font-size: 1.2rem;
+  padding: 1em 2.5em;
   border: 1px solid var(--bluecolor);
   border-radius: 4px;
 }
@@ -384,12 +372,13 @@ a {
 .contact-border {
   border-left: 4px solid var(--sec-color);
   color: var(--text-color);
+  padding: 0 1em;
 }
 
 .contact-list li {
   font-weight: 600;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 .contact-list li a:hover {
@@ -405,7 +394,7 @@ a {
 @media (max-width: 767px) {
   .banner {
     flex-direction: column-reverse;
-    padding: 120px 20px;
+    padding: 7.5em 1.5em;
   }
 
   .banner-left {
@@ -416,7 +405,7 @@ a {
   .banner-right {
     width: 100%;
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 1.8em;
   }
 }
 
@@ -425,8 +414,7 @@ a {
 /*-------------About Page-------------*/
 
 .about {
-  max-width: 1200px;
-  padding: 130px 20px 90px;
+  padding: 8em 1.2em 5em;
 }
 
 .inner1 {
@@ -446,9 +434,9 @@ a {
 }
 
 .inner1 .inner1-left .skill {
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 35px;
+  margin-bottom: 2em;
 }
 
 /* Mobile phone styles (up to 767px) */
@@ -471,7 +459,7 @@ a {
 }
 
 .inner1-right .abt-author {
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 .inner1-right .abt-author span {
@@ -486,20 +474,20 @@ a {
 }
 
 .abt-box {
-  padding: 0 20px 20px 0;
+  padding: 0 1.2em 1.2em 0;
 }
 
 .abt-box p span {
   color: var(--bluecolor);
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .abt-box p u {
   text-transform: uppercase;
   font-family: "Karla", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
