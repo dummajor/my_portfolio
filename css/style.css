@@ -480,14 +480,14 @@ a {
 .abt-box p span {
   color: var(--bluecolor);
   font-family: "Inter", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
 .abt-box p u {
   text-transform: uppercase;
   font-family: "Karla", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -517,12 +517,12 @@ a {
 }
 
 .inner2 .column .card {
-  padding: 60px 20px;
+  padding: 3.75em 1.2em;
 }
 
 .inner2 .column .card span {
   font-family: "Inter", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.4em;
   color: var(--bluecolor);
@@ -530,9 +530,8 @@ a {
 
 .inner2 .column .card p {
   font-family: "Karla", sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 32px;
   color: var(--text-color);
   text-transform: uppercase;
 }
@@ -540,7 +539,7 @@ a {
 /* Mobile phone styles (up to 767px) */
 @media (max-width: 767px) {
   .about {
-    padding: 60px 20px;
+    padding: 3.75em 1.2em;
     margin: 0;
   }
 
@@ -569,15 +568,14 @@ a {
 
 /*-------------Skills Page-------------*/
 .skill-page {
-  max-width: 1200px;
-  padding: 100px 20px 70px;
+  padding: 6em 1.2em 4.5em;
   background: #ffffff;
 }
 
 .skills {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 1.2em 0;
 }
 
 .skill-head {
@@ -586,18 +584,11 @@ a {
   text-decoration: underline;
 }
 
-.languages {
-  padding: 30px;
-  width: 45%;
-  margin-bottom: 30px;
-  border: 1px solid #1e1e1e2b;
-  border-radius: 4px;
-}
-
+.languages,
 .tools {
-  padding: 30px;
+  padding: 1.8em;
   width: 45%;
-  margin-bottom: 30px;
+  margin-bottom: 1.8em;
   border: 1px solid #1e1e1e2b;
   border-radius: 4px;
 }
@@ -611,7 +602,7 @@ a {
   .languages,
   .tools {
     width: 90%;
-    padding: 20px;
+    padding: 1.2em;
   }
 }
 
@@ -620,8 +611,7 @@ a {
 /*-------------Experience Page-------------*/
 
 .experience {
-  max-width: 1200px;
-  padding: 100px 20px 70px;
+  padding: 6em 1.2em 4.5em;
   background: #e8f1f8;
 }
 
@@ -630,7 +620,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 2.5em;
   padding: 0;
 }
 
@@ -639,24 +629,24 @@ a {
   background: #ffffff;
   border: 1px solid #f9fafc;
   border-radius: 4px;
-  margin-bottom: 30px;
-  box-shadow: 30px 40px 80px 0px #e4edf5 outline;
+  margin-bottom: 1.8em;
+  box-shadow: 1.8em 2.5em 5em 0 #e4edf5 outline;
 }
 
 .exp-card-detail {
-  padding: 40px;
+  padding: 2.5em;
 }
 
 .exp-container .exp-card .exp-head {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 15px;
+  margin-bottom: 1em;
 }
 
 .exp-box p {
   font-family: "Karla", sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 500;
   color: var(--sec-color);
 }
@@ -664,20 +654,19 @@ a {
 .exp-box p span {
   color: var(--bluecolor);
   font-family: "Inter", sans-serif;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
 .exp-card p:last-child {
   font-family: "Karla", sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.2rem;
 }
 
 .exp-container .exp-card .exp-head h2 {
   font-family: "Inter", sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -708,15 +697,14 @@ a {
 
 /*------------Service Page------------*/
 .services {
-  max-width: 1200px;
-  padding: 110px 20px 50px;
+  padding: 6em 1.2em 4.5em;
 }
 
 .service-head {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 15px;
+  margin-bottom: 1em;
 }
 
 .service-right {
@@ -728,7 +716,7 @@ a {
 
 .service-right h2 {
   color: var(--bluecolor);
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 600;
   font-family: "Inter", sans-serif;
 }
@@ -737,37 +725,33 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* margin: 0;
-    padding-top: 40px; */
-  margin-top: 40px;
+  margin-top: 2.5em;
   padding: 0;
 }
 
 .service-details .service-card {
   width: 48%;
   margin-bottom: 30px;
-  /* padding: 30px 40px; */
+  padding: 1.8em 0;
   border: 1px solid #1e1e1e2b;
   border-radius: 4px;
 }
 
 .service-details .service-card h2 {
   font-family: "Inter", sans-serif;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 700;
-  line-height: 32px;
   color: var(--bluecolor);
-  margin-bottom: 30px;
-  padding: 0 40px;
+  margin-bottom: 1.5em;
+  padding: 0 2.5em;
 }
 
 .service-card p {
   font-family: "Karla", sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  margin-bottom: 20px;
-  line-height: 32px;
-  padding: 0 40px;
+  font-size: 1.2rem;
+  margin-bottom: 1.2em;
+  padding: 0 2.5em;
 }
 
 /* .cont-btn {
@@ -785,7 +769,7 @@ a {
 @media (max-width: 767px) {
   .services .service-head {
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
   }
 
   .service-right {
@@ -804,15 +788,14 @@ a {
 /*------------Project Page-----------*/
 
 .projects {
-  max-width: 1200px;
-  padding: 100px 20px 70px;
+  padding: 6em 1.2em 4.5em;
 }
 
 .project-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 40px 0 65px;
+  margin: 2.5em 0 4em;
   padding: 0;
 }
 
@@ -829,20 +812,20 @@ a {
   color: var(--text-color);
   font-family: "Karla", sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 .image-box .client {
   color: var(--bluecolor);
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .btn-project {
   display: flex;
   flex-direction: row;
-  margin-bottom: 50px;
+  margin-bottom: 3em;
   padding: 0;
   justify-content: center;
 }
@@ -859,13 +842,8 @@ a {
 
 /*----------Testimonial Page----------*/
 
-.testimonial {
-  max-width: 1200px;
-  padding: 20px 0 85px;
-}
-
 .review {
-  padding: 100px 130px 20px;
+  padding: 6em 8em 1.2em;
   background: #fff5f6;
   text-align: center;
 }
@@ -877,7 +855,7 @@ a {
 
 /* Slides */
 .mySlides {
-  margin-top: 18px;
+  margin-top: 1.2em;
   border-radius: 0;
   opacity: 0;
   transition: opacity 0.6s;
@@ -885,23 +863,22 @@ a {
 
 .mySlides p {
   font-family: "Inter", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 40px;
+  padding-bottom: 1em;
   color: var(--text-color);
 }
 
 .mySlides p:last-child {
   font-family: "Inter", sans-serif;
-  font-size: 30px;
+  font-size: 1.8rem;
   font-weight: 500;
-  line-height: 40px;
   color: var(--bluecolor);
 }
 
 .mySlides p span {
   font-family: "Karla", sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 400;
   color: var(--text-color);
 }
@@ -914,15 +891,15 @@ a {
 /* .dot-container */
 .dot-container {
   text-align: center;
-  padding: 20px;
+  padding: 1.2em;
 }
 
 /* Dot Indicator */
 .dot {
   cursor: pointer;
-  height: 10px;
-  width: 10px;
-  margin: 0 6px;
+  height: 0.5em;
+  width: 0.5em;
+  margin: 0 0.3em;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -937,20 +914,12 @@ a {
 /* Mobile phone styles (up to 767px) */
 @media (max-width: 767px) {
   .review {
-    padding: 40px;
+    padding: 2.5em;
   }
-  .mySlides p {
-    font-size: 18px;
-    line-height: 30px;
-  }
-
-  .mySlides p:last-child {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .mySlides p span {
-    font-size: 14px;
+  .mySlides p,
+  p:last-child,
+  p span {
+    font-size: 1.2rem;
   }
 }
 
@@ -958,8 +927,7 @@ a {
 
 /*----------Contact Page---------*/
 .contact-us {
-  max-width: 1200px;
-  padding: 20px 20px 60px 20px;
+  padding: 1.2em 1.2em 3.5em 1.2em;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -968,14 +936,13 @@ a {
 
 .contact-details {
   width: 50%;
-  padding-right: 50px;
+  padding-right: 3em;
 }
 
 .contact-details p {
   font-family: "Karla", sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 32px;
 }
 
 .two li a:hover {
@@ -989,8 +956,8 @@ a {
 .contact-icons .fa-brands {
   border: 1px solid #f3f3f6;
   border-radius: 100%;
-  padding: 0 15px;
-  font-size: 20px;
+  padding: 0 1em;
+  font-size: 1.2rem;
 }
 
 .contact-icons a {
@@ -1017,7 +984,7 @@ a {
   }
 
   .fa-solid {
-    font-size: 15px;
+    font-size: 1em;
   }
 }
 
@@ -1055,11 +1022,11 @@ a {
 
   .contact-details {
     width: 45%;
-    padding-right: 30px;
+    padding-right: 1.8em;
   }
 
   .contact-form {
-    padding-left: 30px;
+    padding-left: 1.8em;
   }
 
   .two {
@@ -1067,6 +1034,6 @@ a {
   }
 
   .fa-solid {
-    font-size: 15px;
+    font-size: 1rem;
   }
 }
