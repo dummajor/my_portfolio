@@ -26,6 +26,10 @@
   margin: 0;
 }
 
+p {
+  font-size: 1.2rem;
+}
+
 /* Mobile phone styles (up to 767px) */
 @media (max-width: 767px) {
   .name {
@@ -97,7 +101,6 @@ a {
 }
 
 .nav-menu {
-  font-weight: 400;
   color: var(--text-color);
   font-size: 1.2rem;
   text-align: center;
@@ -192,20 +195,7 @@ a {
 
 .mobile-contents .name-head {
   font-size: 1rem;
-  /* line-height: 0; */
 }
-
-/* .mobile-contents .avatar1 {
-  width: 40%;
-  border: 3px solid #a5a6ff;
-  border-radius: 100px;
-} */
-
-/* .mobile-contents .nav-menu {
-  font-weight: 400;
-  line-height: 0;
-  font-size: 15px;
-} */
 
 .mobile-contents .nav-menu .nav-list .nav-link {
   padding: 0;
@@ -221,7 +211,7 @@ a {
 }
 
 .mobile-contents .copyright {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 /* Mobile phone styles (up to 767px) */
@@ -260,17 +250,6 @@ a {
   font-size: 2.5rem;
   /* margin-left: 4em; */
 }
-
-/* 
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-
-    .sidenav a {
-        font-size: 15px;
-    }
-} */
 
 #myBtn {
   display: none; /* Hidden by default */
@@ -323,8 +302,6 @@ a {
 .banner-left p {
   margin-bottom: 2.5em;
   width: 80%;
-  font-size: 1.2rem;
-  font-weight: 400;
 }
 
 .banner-left p span {
@@ -480,15 +457,12 @@ a {
 .abt-box p span {
   color: var(--bluecolor);
   font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
   font-weight: 700;
 }
 
 .abt-box p u {
   text-transform: uppercase;
   font-family: "Karla", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
 }
 
 .inner2 {
@@ -530,8 +504,6 @@ a {
 
 .inner2 .column .card p {
   font-family: "Karla", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
   color: var(--text-color);
   text-transform: uppercase;
 }
@@ -567,7 +539,7 @@ a {
 /*------xx-------About Page------xx-------*/
 
 /*-------------Skills Page-------------*/
-.skill-page {
+/* .skill-page {
   padding: 6em 1.2em 4.5em;
   background: #ffffff;
 }
@@ -594,7 +566,7 @@ a {
 }
 
 /* Mobile phone styles (up to 767px) */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .skills {
     flex-direction: column;
   }
@@ -603,8 +575,8 @@ a {
   .tools {
     width: 90%;
     padding: 1.2em;
-  }
-}
+  } 
+} */
 
 /*------xxx-------Skills Page-------xxx------*/
 
@@ -646,7 +618,6 @@ a {
 
 .exp-box p {
   font-family: "Karla", sans-serif;
-  font-size: 1.2rem;
   font-weight: 500;
   color: var(--sec-color);
 }
@@ -654,14 +625,11 @@ a {
 .exp-box p span {
   color: var(--bluecolor);
   font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
   font-weight: 700;
 }
 
 .exp-card p:last-child {
   font-family: "Karla", sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
 }
 
 .exp-container .exp-card .exp-head h2 {
@@ -679,18 +647,6 @@ a {
   .exp-container .exp-card {
     width: 100%;
   }
-
-  /* .exp-box p {
-        font-size: 12px;
-    }
-
-    .exp-box p span {
-        font-size: 15px;
-    }
-
-    .exp-container .exp-card .exp-head h2 {
-        font-size: 15px;
-    } */
 }
 
 /*-----xx--------Experience Page----xx---------*/
@@ -748,8 +704,6 @@ a {
 
 .service-card p {
   font-family: "Karla", sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
   margin-bottom: 1.2em;
   padding: 0 2.5em;
 }
@@ -864,7 +818,6 @@ a {
 .mySlides p {
   font-family: "Inter", sans-serif;
   font-size: 1.5rem;
-  font-weight: 400;
   padding-bottom: 1em;
   color: var(--text-color);
 }
@@ -878,8 +831,6 @@ a {
 
 .mySlides p span {
   font-family: "Karla", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
   color: var(--text-color);
 }
 
@@ -916,11 +867,11 @@ a {
   .review {
     padding: 2.5em;
   }
-  .mySlides p,
+  /* .mySlides p,
   p:last-child,
   p span {
     font-size: 1.2rem;
-  }
+  } */
 }
 
 /*------xx----Testimonial Page------xx----*/
@@ -941,8 +892,6 @@ a {
 
 .contact-details p {
   font-family: "Karla", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
 }
 
 .two li a:hover {
@@ -1007,9 +956,17 @@ a {
 }
 
 /* tablet devices */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .mobile-menu {
     display: flex;
+  }
+
+  .logo {
+    width: 20%;
+  }
+
+  .banner {
+    padding-top: 10em;
   }
 
   .service-card {
