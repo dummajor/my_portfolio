@@ -6,20 +6,18 @@
 // })
 
 
-
 // ----------- For Mobile Side Navigation -------------------
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 
 }
 
+
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
 // -----xxxx------ For Mobile Side Navigation -------xxxx------------
-
-
 
 
 
