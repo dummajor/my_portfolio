@@ -749,12 +749,13 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 2.5em 0 4em;
+  margin: 2.5em 0 4em ;
   padding: 0;
 }
 
 .image-box {
   width: 30%;
+  margin: 2em 0;
 }
 
 .image-box a:hover {
